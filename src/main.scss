@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+
+  .cards {
+    padding: 0.5rem;
+    max-width: auto;
+    text-align: center;
+
+    img {
+      max-width: auto;
+      margin: 0 auto;
+    }
+
+    .bands-info {
+      height: 10rem;
+      margin: auto;
+
+      .album_title {
+        padding: 1rem 0;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .artist_title {
+        padding-bottom: 1rem;
+      }
+
+      .genre_text {
+        color: lightgrey;
+      }
+    }
+  }
+}
