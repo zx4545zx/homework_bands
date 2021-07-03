@@ -4,12 +4,13 @@
 
 .card {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(5, 18.8rem);
 
   .cards {
     padding: 0.5rem;
     max-width: auto;
     text-align: center;
+    border: 1px solid grey;
 
     img {
       max-width: auto;
@@ -17,13 +18,14 @@
     }
 
     .bands-info {
-      height: 10rem;
+      height: 8.5rem;
       margin: auto;
 
       .album_title {
         padding: 1rem 0;
         font-weight: bold;
         cursor: pointer;
+        height: 2rem;
       }
 
       .artist_title {
